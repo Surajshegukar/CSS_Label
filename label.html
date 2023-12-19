@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="//code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.8.0/dist/JsBarcode.all.min.js"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" type="text/css" media="print" href="print.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="main">
+            <div class="div-1">
+                <h2><i>HIKVISION</i></h2>
+                <h4>COLOR CAMERA</h4>
+                <h4>Model: DS-2CE76D0T-ITPFS</h4>
+            </div>
+            <div class="div-2">
+                <h4>3.6mm</h4>
+            </div>
+        </div>
+        <div class="main-2">
+            <div class="div-3">
+                <p>DNR/D-WDR</p>
+                <p>IR distance: 20m, 0.01lux</p>
+                <p>12 ===220mA,2.7W MAx</p>
+            </div>
+            <div class="div-4">
+                <h1>1080P</h1>
+            </div>
+        </div>
+        <div class="barcode">
+            <img id="barcode"/>
+        </div>
+        <div class="main-made">
+            <div class="div-5">
+                <p>SN:</p>
+                <p>Lot Number: 1234567890</p>
+                <p>Date:09/2023 </p>
+            </div>
+            <div class="made">
+                <p>Made in India</p>
+            </div>
+        </div>
+        <div class="main-3">
+            <div class="div-6">
+                <p>
+                    Manufacture By:
+                </p>
+                <p>
+                    Address: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum est, asperiores alias delectus at sed iusto ullam maiores odio suscipit consequuntur ut eos ipsam fugit quidem tempore eum doloribus dolorem.
+                </p>
+            </div>
+            <div class="barcode-2">
+                <p>CAN ICES</p>
+                <p>Material Code:123455767898123</p>
+                <div class="img-3">
+                    <img id="barcode-2"/>
+                </div>
+            </div>
+        </div>
+        <div class="last-main">
+            <p>IS</p>
+            <p>IEC 80950 - 1</p>
+            <div class="img-1">
+                <img src="./logo1.jpg" alt="">
+            </div>
+            <p>R- 71004456</p>
+            <p class="web-link">www.bis.gov.in</p>
+            <div class="img-2">
+                <img src="./logo2.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="print">
+        <input type="button" value="Print" onclick="printDiv()"> 
+    </div>
+</body>
+</html>
